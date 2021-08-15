@@ -20,8 +20,8 @@ public class HomePage extends TestBase {
 	//@FindBy()
 	//WebElement popup_text2;
 	
-	//@FindBy()
-	//WebElement popup_text3;
+	@FindBy(xpath = "//a[text()='Login']")
+	WebElement loginLink;
 
 	@FindBy(xpath = "//button[contains(text(),'Ignore')]")
 	WebElement popup_ignore_btn;
