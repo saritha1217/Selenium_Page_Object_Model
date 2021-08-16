@@ -23,8 +23,6 @@ public class HomePage extends TestBase {
 	public void newButtonClick() {
 		
 	}
-	//@FindBy()
-	//WebElement popup_text2;
 	
 	@FindBy(xpath = "//a[text()='Login']")
 	WebElement loginLink;
