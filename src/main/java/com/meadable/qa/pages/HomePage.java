@@ -42,27 +42,27 @@ public class HomePage extends TestBase {
 	//Page actions
 	public void enter_username()
 	{
-		username.clear();
-		username.click();
-		username.sendKeys(prop.getProperty("username"));
+		//username.clear();
+		//username.click();
+		//username.sendKeys(prop.getProperty("username"));//
 	}
 
 	public void enter_password()
 	{
-		password.clear();
-		password.click();
-		password.sendKeys(prop.getProperty("password"));
+		//password.clear();
+		//password.click();
+		//password.sendKeys(prop.getProperty("password"));
 	}
 
 	public void click_login()
 	{
-		login_Btn.click();
+		//login_Btn.click();
 	}
 	
-	public String getText()
+	//public String getText()
 	{
-		String page_text = text.getText();
-		return page_text;
+		//String page_text = text.getText();
+		//return page_text;
 		
 	}
 	
