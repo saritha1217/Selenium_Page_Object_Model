@@ -10,18 +10,24 @@ import com.meadable.qa.util.TestBase;
 public class HomePage extends TestBase {
 
 	//Page factory
-	
+	//other user pushed some more code in same file
+
 	//@FindBy()
 	//WebElement popup_title;
-	
+	public void testMethod(){
+		//This method will used to start the test
+	}
 	//@FindBy()
 	//WebElement popup_text1;
 	
+	public void newButtonClick() {
+		
+	}
 	//@FindBy()
 	//WebElement popup_text2;
 	
-	//@FindBy()
-	//WebElement popup_text3;
+	@FindBy(xpath = "//a[text()='Login']")
+	WebElement loginLink;
 
 	@FindBy(xpath = "//button[contains(text(),'Ignore')]")
 	WebElement popup_ignore_btn;
@@ -42,27 +48,27 @@ public class HomePage extends TestBase {
 	//Page actions
 	public void enter_username()
 	{
-		username.clear();
-		username.click();
-		username.sendKeys(prop.getProperty("username"));
+		//username.clear();
+		//username.click();
+		//username.sendKeys(prop.getProperty("username"));//
 	}
 
 	public void enter_password()
 	{
-		password.clear();
-		password.click();
-		password.sendKeys(prop.getProperty("password"));
+		//password.clear();
+		//password.click();
+		//password.sendKeys(prop.getProperty("password"));
 	}
 
 	public void click_login()
 	{
-		login_Btn.click();
+		//login_Btn.click();
 	}
 	
-	public String getText()
+	//public String getText()
 	{
-		String page_text = text.getText();
-		return page_text;
+		//String page_text = text.getText();
+		//return page_text;
 		
 	}
 	
@@ -75,5 +81,9 @@ public class HomePage extends TestBase {
 	{
 		formStepTask_RadioBtn.click();
 	}
-
+   public void clicksigninbutton()
+   {
+	   
+   }
+   
 }
