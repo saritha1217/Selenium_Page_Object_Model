@@ -11,12 +11,13 @@ public class HomePage extends TestBase {
 
 	//Page factory
 	//other user pushed some more code in same file
-	//@FindBy()
-	//WebElement popup_title;
 	
 	//@FindBy()
 	//WebElement popup_text1;
 	
+	public void newButtonClick() {
+		
+	}
 	//@FindBy()
 	//WebElement popup_text2;
 	
