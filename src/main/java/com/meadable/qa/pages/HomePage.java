@@ -11,7 +11,12 @@ public class HomePage extends TestBase {
 
 	//Page factory
 	//other user pushed some more code in same file
-	
+
+	//@FindBy()
+	//WebElement popup_title;
+	public void testMethod(){
+		//This method will used to start the test
+	}
 	//@FindBy()
 	//WebElement popup_text1;
 	
