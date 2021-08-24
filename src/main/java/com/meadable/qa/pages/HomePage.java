@@ -10,8 +10,11 @@ import com.meadable.qa.util.TestBase;
 public class HomePage extends TestBase {
 
 	//Page factory
+	
+	
 	//other user pushed some more code in same file
 
+	
 	//@FindBy()
 	//WebElement popup_title;
 	public void testMethod(){
@@ -23,8 +26,6 @@ public class HomePage extends TestBase {
 	public void newButtonClick() {
 		
 	}
-	//@FindBy()
-	//WebElement popup_text2;
 	
 	@FindBy(xpath = "//a[text()='Login']")
 	WebElement loginLink;
